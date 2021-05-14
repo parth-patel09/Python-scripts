@@ -2,15 +2,15 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-fro_add="dilipvijjapu@gmail.com"
-to_add="vijjapudilip@gmail.com"
+fro_add="patelparth987654@gmail.com"
+to_add="patelparthmail1996@gmail.com"
 
 message=MIMEMultipart()
 message['From']=fro_add
 message['To']=",".join(to_add)
 message['subject']="Testinf mail"
 
-body='Hai this is dilip ,How are you'
+body='Hai this is parth ,How are you'
 
 message.attach(MIMEText(body,'plain'))
 
